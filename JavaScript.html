@@ -11,5 +11,13 @@
       document.write(message);
     </script>
   </head>
-  <body></body>
+  <body>
+    <div id="myWords">HTML wrote me</div>
+
+    <button
+      onclick="document.getElementById('myWords').innerHTML='JavaScript wrote me';"
+    >
+      Click Here
+    </button>
+  </body>
 </html>
